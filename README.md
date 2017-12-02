@@ -14,7 +14,14 @@ Add in raw CSS converted to JS styles.
 <b>example:</b>
 <pre>
 P.css(`
-
+body{
+background:blue;
+border: 1px solid black;
+}
+#a{
+color:red;
+border:5px solid green;
+}
 `);
 </pre>
 <hr>
