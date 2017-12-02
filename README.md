@@ -15,7 +15,7 @@ Select a HTML element.
 <pre>
 P(#a);
 </pre>
-<br>
+<hr>
 <pre>
 P(<i>element</i>).html(<i>html</i>);
 </pre>
