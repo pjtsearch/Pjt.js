@@ -53,7 +53,7 @@ Select a HTML element.
 <br>
 <b>example:</b>
 <pre>
-P(#a);
+P('#a');
 </pre>
 <hr>
 <pre>
@@ -70,7 +70,7 @@ Replace inner HTML of an element.
 <b>example:</b>
 <br>
 <pre>
-P(#a).html('test');
+P('#a').html('test');
 </pre>
 <hr>
 <pre>
@@ -87,6 +87,6 @@ Add CSS of an element.
 <b>example:</b>
 <br>
 <pre>
-P(#a).css('color:red; background:blue;');
+P('#a').css('color:red; background:blue;');
 </pre>
 <hr>
