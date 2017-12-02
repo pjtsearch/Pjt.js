@@ -2,6 +2,8 @@
 Pjt.js is a JavaScript library.  Its current main function is converting raw CSS into js styles.
 <br>
 #### <a href="https://codepen.io/piwithewiwi/pen/pdOKma">DEMO</a>
+<br>
+#### <a href="https://github.com/pjtsearch/Pjt.js/releases">Releases</a>
 
 ## How to Use
 ### Method 1: Download
