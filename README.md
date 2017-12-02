@@ -3,6 +3,22 @@ Pjt.js is a JavaScript library.  Its current main function is converting raw CSS
 
 ## Functions
 <pre>
+P.css(<i>css</i>);
+</pre>
+Add in raw CSS converted to JS styles.
+<br>
+<br>
+<i>css</i>: Regular raw CSS (media queries not supported).
+<br>
+<br>
+<b>example:</b>
+<pre>
+P.css(`
+
+`);
+</pre>
+<hr>
+<pre>
 P(<i>element</i>);
 </pre>
 Select a HTML element. 
