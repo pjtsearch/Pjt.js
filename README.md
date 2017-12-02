@@ -27,11 +27,11 @@ Replace inner HTML of an element.
 <i>html</i>: Desired new HTML of element (can be HTML).
 <br>
 <b>example:</b>
-<br>
+<hr>
 <pre>
 P(#a).html('test');
 </pre>
-<br>
+<hr>
 <pre>
 P(<i>element</i>).css(<i>css</i>);
 </pre>
@@ -47,4 +47,4 @@ Add CSS of an element.
 <pre>
 P(#a).css('color:red; background:blue;');
 </pre>
-<br>
+<hr>
