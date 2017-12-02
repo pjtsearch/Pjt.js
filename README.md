@@ -12,7 +12,6 @@ Select a HTML element.
 <br>
 <br>
 <b>example:</b>
-<br>
 <pre>
 P(#a);
 </pre>
