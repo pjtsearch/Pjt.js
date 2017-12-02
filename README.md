@@ -24,6 +24,7 @@ border:5px solid green;
 }
 `);
 </pre>
+*Note: back ticks can be used in JS for multi-line strings as shown above.
 <hr>
 <pre>
 P(<i>element</i>);
