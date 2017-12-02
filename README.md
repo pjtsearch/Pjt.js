@@ -27,7 +27,7 @@ Replace inner HTML of an element.
 <i>html</i>: Desired new HTML of element (can be HTML).
 <br>
 <b>example:</b>
-<hr>
+<br>
 <pre>
 P(#a).html('test');
 </pre>
