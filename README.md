@@ -15,4 +15,5 @@ P(<i>element</i>).html(<i>html</i>);
 Change inner HTML of an element. 
 <br>
 <i>element</i>: CSS element selector.
+<br>
 <i>html</i>: Desired new HTML of element.
