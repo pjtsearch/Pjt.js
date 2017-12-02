@@ -3,8 +3,8 @@ Pjt.js is a JavaScript library.  Its current main function is converting raw CSS
 
 ## Functions
 <pre>
-<font color="blue">
 P(<i>element</i>);
-</font>
 </pre>
+Select and html element. 
+<i>element</i>: CSS element selector.
     
