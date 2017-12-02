@@ -10,6 +10,7 @@ Select a HTML element.
 <br>
 <i>element</i>: CSS element selector.
 <br>
+<br>
 <b>example:</b>
 <br>
 <pre>
@@ -26,6 +27,7 @@ Replace inner HTML of an element.
 <br>
 <i>html</i>: Desired new HTML of element (can be HTML).
 <br>
+<br>
 <b>example:</b>
 <br>
 <pre>
@@ -41,6 +43,7 @@ Add CSS of an element.
 <i>element</i>: CSS element selector.
 <br>
 <i>css</i>: Desired CSS in CSS text.
+<br>
 <br>
 <b>example:</b>
 <br>
