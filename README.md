@@ -7,9 +7,10 @@ P(<i>element</i>);
 </pre>
 Select a HTML element. 
 <br>
+<br>
 <i>element</i>: CSS element selector.
 <br>
-example:
+<b>example:</b>
 <br>
 <pre>
 P(#a);
@@ -20,11 +21,12 @@ P(<i>element</i>).html(<i>html</i>);
 </pre>
 Replace inner HTML of an element. 
 <br>
+<br>
 <i>element</i>: CSS element selector.
 <br>
 <i>html</i>: Desired new HTML of element (can be HTML).
 <br>
-example:
+<b>example:</b>
 <br>
 <pre>
 P(#a).html('test');
@@ -35,11 +37,12 @@ P(<i>element</i>).css(<i>css</i>);
 </pre>
 Add CSS of an element. 
 <br>
+<br>
 <i>element</i>: CSS element selector.
 <br>
 <i>css</i>: Desired CSS in CSS text.
 <br>
-example:
+<b>example:</b>
 <br>
 <pre>
 P(#a).css('color:red; background:blue;');
