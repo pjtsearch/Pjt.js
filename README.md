@@ -9,7 +9,7 @@ Pjt.js is a JavaScript library.  Its current main function is converting raw CSS
 ### Method 1: Download
 1. Download <a href="https://github.com/pjtsearch/Pjt.js/releases">the latest Pjt.js release</a>.
 2. Link to your page
-````html
+```html
 <script src="pjt.js"></script>
 ```
 ## Functions
