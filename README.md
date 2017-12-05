@@ -19,7 +19,7 @@ Pjt.js is a JavaScript library.  Its current main function is converting raw CSS
 ```
 ## Functions
 <pre>
-P.css(<i>css</i>);
+PCSS.css(<i>css</i>);
 </pre>
 Add in raw CSS converted to JS styles.
 <br>
@@ -29,7 +29,7 @@ Add in raw CSS converted to JS styles.
 <br>
 <b>example:</b>
 <pre>
-P.css(`
+PCSS.css(`
 body{
 background:blue;
 border: 1px solid black;
