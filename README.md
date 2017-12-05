@@ -15,7 +15,7 @@ Pjt.js is a JavaScript library.  Its current main function is converting raw CSS
 ### Method 2: No Download
 1. link the latest version of pjt.js to your page
 ```html
-<script src="https://cdn.rawgit.com/pjtsearch/Pjt.js/master/pjt.js"></script>
+<script src="https://rawgit.com/pjtsearch/Pjt.js/master/pjt.js"></script>
 ```
 ## Functions
 <pre>
