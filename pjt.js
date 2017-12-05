@@ -27,3 +27,20 @@ HTMLElement.prototype.html = function(html){
 HTMLElement.prototype.css = function(styles){
     this.style.cssText += styles;
 };
+
+HTMLElement.prototype.toggleCss = function(styles){
+    if (this.style.cssText.includes(styles)){
+      var newstringreplaced = styles.replace(/;/gi, ";,");
+    var styleclause = newstringreplaced.split(",");
+      styleclause.pop();
+      console.log(styleclause);
+      console.log(this.style.cssText.replace(" " + styleclause, ""));
+      var newcsstext = this.style.cssText.replace(" " + styleclause, "");
+      this.style.cssText = newcsstext;
+    }
+ 
+
+  else{
+    this.style.cssText += styles;
+  }
+};
