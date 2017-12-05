@@ -57,6 +57,25 @@ Toggles a raw CSS style with the deafault value;
 <pre>
 P('#a').toggleCssDefault('color: blue;');
 </pre>
+<pre>
+P(<i>element</i>).toggleCss(<i>style</i>, <i>togglestyle</i>);
+</pre>
+Toggles a raw CSS style with another raw CSS style;
+<br>
+<br>
+<i>element</i>: CSS element selector.
+<br>
+<i>style</i>: Raw CSS style to be toggled with <i>togglestyle</i> (MUST HAVE 1 SPACE AFTER : AND HAVE A ;).
+<br>
+<br>
+<i>togglestyle</i>: Raw CSS style to be toggled with <i>style</i> (MUST HAVE 1 SPACE AFTER : AND HAVE A ;).
+<br>
+<br>
+<b>example:</b>
+<pre>
+P('#a').toggleCss('color: blue;', 'color: red;');
+</pre>
+<hr>
 <hr>
 <pre>
 P(<i>element</i>);
