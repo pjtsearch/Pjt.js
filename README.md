@@ -45,7 +45,7 @@ border:5px solid green;
 <pre>
 P(<i>element</i>).toggleCssDefault(<i>style</i>);
 </pre>
-Toggles a raw CSS style with the deafault value;
+Toggles a raw CSS style with the deafault value.
 <br>
 <br>
 <i>element</i>: CSS element selector.
@@ -61,7 +61,7 @@ P('#a').toggleCssDefault('color: blue;');
 <pre>
 P(<i>element</i>).toggleCss(<i>style</i>, <i>togglestyle</i>);
 </pre>
-Toggles a raw CSS style with another raw CSS style;
+Toggles a raw CSS style with another raw CSS style.
 <br>
 <br>
 <i>element</i>: CSS element selector.
@@ -75,6 +75,25 @@ Toggles a raw CSS style with another raw CSS style;
 <b>example:</b>
 <pre>
 P('#a').toggleCss('color: blue;', 'color: red;');
+</pre>
+<hr>
+<pre>
+P(<i>element</i>).toggleCssAny(<i>stylename</i>, <i>value</i>);
+</pre>
+Toggles a style with whatever style was set before.
+<br>
+<br>
+<i>element</i>: CSS element selector.
+<br>
+<i>stylename</i>: The name of a JS style.
+<br>
+<br>
+<i>value</i>: Value of <i>stylename</i>.
+<br>
+<br>
+<b>example:</b>
+<pre>
+P('#a').toggleCssAny('color', 'green');
 </pre>
 <hr>
 <pre>
