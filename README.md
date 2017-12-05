@@ -68,7 +68,6 @@ Toggles a raw CSS style with another raw CSS style.
 <br>
 <i>style</i>: Raw CSS style to be toggled with <i>togglestyle</i> (MUST HAVE 1 SPACE AFTER : AND HAVE A ;).
 <br>
-<br>
 <i>togglestyle</i>: Raw CSS style to be toggled with <i>style</i> (MUST HAVE 1 SPACE AFTER : AND HAVE A ;).
 <br>
 <br>
@@ -86,7 +85,6 @@ Toggles a style with whatever style was set before.
 <i>element</i>: CSS element selector.
 <br>
 <i>stylename</i>: The name of a JS style.
-<br>
 <br>
 <i>value</i>: Value of <i>stylename</i>.
 <br>
