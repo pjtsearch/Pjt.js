@@ -79,7 +79,7 @@ P('#a').toggleCss('color: blue;', 'color: red;');
 <pre>
 P(<i>element</i>).toggleCssAny(<i>stylename</i>, <i>value</i>);
 </pre>
-Toggles a style with whatever style was set before.
+Toggles a style value with whatever style value was set before.
 <br>
 <br>
 <i>element</i>: CSS element selector.
