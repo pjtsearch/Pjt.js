@@ -1,5 +1,5 @@
 # Pjt.js
-Pjt.js is a JavaScript library.  Its current main function is converting raw CSS into js styles.
+Pjt.js is a JavaScript library.  Its current main function is converting raw CSS into js styles and toggling CSS.
 <br>
 #### <a href="https://codepen.io/piwithewiwi/pen/pdOKma">DEMO</a>
 
@@ -41,6 +41,22 @@ border:5px solid green;
 `);
 </pre>
 <i>*Note: back ticks can be used in JS for multi-line strings as shown above.</i>
+<hr>
+<pre>
+P(<i>element</i>).toggleCssDefault(<i>style</i>);
+</pre>
+Toggles a raw CSS style with the deafault value;
+<br>
+<br>
+<i>element</i>: CSS element selector.
+<br>
+<i>style</i>: Raw CSS style to be toggled with deafault (MUST HAVE 1 SPACE AFTER : AND HAVE A ;).
+<br>
+<br>
+<b>example:</b>
+<pre>
+P('#a').toggleCssDefault('color: blue;');
+</pre>
 <hr>
 <pre>
 P(<i>element</i>);
