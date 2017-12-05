@@ -57,6 +57,7 @@ Toggles a raw CSS style with the deafault value;
 <pre>
 P('#a').toggleCssDefault('color: blue;');
 </pre>
+<hr>
 <pre>
 P(<i>element</i>).toggleCss(<i>style</i>, <i>togglestyle</i>);
 </pre>
@@ -75,7 +76,6 @@ Toggles a raw CSS style with another raw CSS style;
 <pre>
 P('#a').toggleCss('color: blue;', 'color: red;');
 </pre>
-<hr>
 <hr>
 <pre>
 P(<i>element</i>);
