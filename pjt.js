@@ -28,11 +28,12 @@ HTMLElement.prototype.css = function(styles){
     this.style.cssText += styles;
 };
 
-HTMLElement.prototype.toggleCss = function(styles){
+HTMLElement.prototype.toggleCssDefault = function(styles){
     if (this.style.cssText.includes(styles)){
-      var newstringreplaced = styles.replace(/;/gi, ";,");
-    var styleclause = newstringreplaced.split(",");
-      styleclause.pop();
+      //var newstringreplaced = styles.replace(/;/gi, ";,");
+    //var styleclause = newstringreplaced.split(",");
+      //styleclause.pop();
+      var styleclause = styles;
       console.log(styleclause);
       console.log(this.style.cssText.replace(" " + styleclause, ""));
       var newcsstext = this.style.cssText.replace(" " + styleclause, "");
@@ -43,4 +44,40 @@ HTMLElement.prototype.toggleCss = function(styles){
   else{
     this.style.cssText += styles;
   }
+};
+
+  //P('#a').toggleCssDefault('color: red;');
+
+HTMLElement.prototype.toggleCss = function(styles, togglestyle){
+    if (this.style.cssText.includes(styles)){
+      //var newstringreplaced = styles.replace(/;/gi, ";,");
+    //var styleclause = newstringreplaced.split(",");
+      //styleclause.pop();
+      var styleclause = styles;
+      console.log(styleclause);
+      console.log(this.style.cssText.replace(styleclause, togglestyle));
+      var newcsstext = this.style.cssText.replace(styleclause, togglestyle);
+      this.style.cssText = newcsstext;
+    }
+ 
+
+  else{
+    this.style.cssText += styles;
+  }
+};
+
+HTMLElement.prototype.toggleCssAny = function(style, value){
+  var cssstyle = 'this.style.' + style + ' !== "' + value + '";';
+  console.log(eval(cssstyle));
+  if (eval(cssstyle)){
+    var oldstyler = 'this.style.' + style;
+    window.oldstyle = eval(oldstyler);
+    console.log(window.oldstyle);
+    var newstyle = 'this.style.' + style + ' = "' + value + '";';
+   eval(newstyle);
+  }else{
+    var newoldstyle = 'this.style.' + style + ' = "' + window.oldstyle + '";';
+    eval(newoldstyle);
+  }
+  
 };
