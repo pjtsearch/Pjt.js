@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/pjtsearch/Pjt.js/images/pjt.js.png" height="400" width="auto"></img>
+<img src="https://raw.githubusercontent.com/pjtsearch/Pjt.js/images/pjt.js-github.png"></img>
 <br>
 Pjt.js is a JavaScript library.  Its current main function is converting raw CSS into js styles and toggling CSS.
 <br>
