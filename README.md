@@ -1,4 +1,3 @@
-# Pjt.js
 ![logo](https://raw.githubusercontent.com/pjtsearch/Pjt.js/images/pjt.js.png)
 Pjt.js is a JavaScript library.  Its current main function is converting raw CSS into js styles and toggling CSS.
 <br>
