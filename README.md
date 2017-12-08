@@ -46,22 +46,6 @@ border:5px solid green;
 <i>*Note: back ticks can be used in JS for multi-line strings as shown above.</i>
 <hr>
 <pre>
-P(<i>element</i>).toggleCssDefault(<i>style</i>);
-</pre>
-Toggles a raw CSS style with the deafault value.
-<br>
-<br>
-<i>element</i>: CSS element selector.
-<br>
-<i>style</i>: Raw CSS style to be toggled with deafault (MUST HAVE 1 SPACE AFTER : AND HAVE A ;).
-<br>
-<br>
-<b>example:</b>
-<pre>
-P('#a').toggleCssDefault('color: blue;');
-</pre>
-<hr>
-<pre>
 P(<i>element</i>).toggleCss(<i>style</i>, <i>togglestyle</i>);
 </pre>
 Toggles a raw CSS style with another raw CSS style.
