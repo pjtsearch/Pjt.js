@@ -2,18 +2,22 @@ var PCSS = {};
 PCSS.css = 
   function(css){
   var clause = css.replace(/(\r\n|\n|\r)/gm,"");
-  var newstringreplaced = clause.replace(/}/gi, "},");
-var clause = newstringreplaced.split(",");
+  var newstringreplaced = clause.replace(/}/gi, "}~");
+var clause = newstringreplaced.split("~");
   clause.pop();
-  console.log(clause);
+  //console.log(clause);
 
   for (i in clause){
          var selector=clause[i].split('{')[0];
-console.log(selector);
+//console.log(selector);
 var csstext=clause[i].substring(clause[i].lastIndexOf("{")+1,clause[i].lastIndexOf("}"));
 var csstext = csstext.replace(/(\r\n|\n|\r)/gm,"");
-console.log(csstext);
-document.querySelector(selector).style.cssText += csstext;
+//console.log(csstext);
+var selectnode = document.querySelectorAll(selector), i;
+   //alert(JSON.stringify(selectnode));
+    for (i = 0; i < selectnode.length; ++i) {
+  selectnode[i].style.cssText += csstext;
+}
   }
  }
 ;
